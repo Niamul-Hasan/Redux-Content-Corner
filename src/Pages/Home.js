@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ContentCart from '../Components/ContentCart';
 
 const Home = () => {
     const [click, setClick] = useState(false);
@@ -24,6 +25,7 @@ const Home = () => {
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-14'>
                 <p className='uppercase text-rose-600'>Contents will be displayed here</p>
+                <ContentCart></ContentCart>
             </div>
         </div>
     );
